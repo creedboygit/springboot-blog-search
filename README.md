@@ -39,7 +39,7 @@
 ## 외부 라이브러리
 
 - Swagger : API 자동 명세 & 테스트
-- WebClient : HTTP Client로 카카오, 네이버 Open API 연결 시 사용
+- Spring Webflux - WebClient : HTTP Client로 카카오, 네이버 Open API 연결 시 사용
 
 <br/>
 
