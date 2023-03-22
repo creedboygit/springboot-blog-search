@@ -1,0 +1,59 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: blog-search-service
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:~/test
+    username: sa
+    password:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+jpa:
+  database-platform: org.hibernate.dialect.H2Dialect
+  properties:
+    hibernate:
+      format_sql: true
+      show_sql: true
+      dialect: org.hibernate.dialect.H2Dialect
+  hibernate:
+    ddl-auto: create
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type: trace
+    root: info
+springdoc:
+  default-consumes-media-type: application/json;charset=UTF-8
+  default-produces-media-type: application/json;charset=UTF-8
+  version: 'v0.0.1'
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+    groups:
+      enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+    use-root-path: true
+    doc-expansion: list
+    operationsSorter: alpha
+  cache:
+    disabled: true
+kakao:
+  api:
+    key-prefix: KakaoAK
+    key: 58455709fc8e5e24e6c87787c0abd25f
+    baseurl: https://dapi.kakao.com
+    blog-search-path: /v2/search/blog
+naver:
+  api:
+    clientId: l4YyZJqTj1ogtR0AGQTo
+    clientSecret: 5PkJmkpUPf
+    baseurl: https://openapi.naver.com
+    blog-search-path: /v1/search/blog.json
