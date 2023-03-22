@@ -7,8 +7,8 @@
 ## 프로젝트 내용
 
 ### 블로그 검색 서비스
-- 카카오, 네이버 Open API를 이용한 블로그 검색 서비스 - 백엔드 API 구현
-- 인기 블로그 검색어 TOP 10 조회 서비스 - 백엔드 API 구현
+- 카카오, 네이버 Open API를 이용한 블로그 검색 서비스 - Backend API 구현
+- 인기 블로그 검색어 TOP 10 조회 서비스 - Backend API 구현
 
 <br/>
 
@@ -18,7 +18,7 @@
 
 2. `$ cd [다운로드 경로]`
 
-3. `java -jar blog-search-01-0.0.1-SNAPSHOT.jar`
+3. `java -jar blog-search-0.0.1-SNAPSHOT.jar`
 
 4. __[http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html "localhost Swagger 경로")__ - localhost Swagger 접속
 
@@ -60,7 +60,7 @@ __[https://documenter.getpostman.com/view/21941243/2s93RL1Ge8](https://documente
 ### 1. 블로그 검색
 
 - 카카오 검색 외에 새로운 검색 소스 추가가 용이하도록 확장성을 고려하여 구현
-    - 추가되는 사이트를 확장 구현하기 쉽게 Interface 설계
+    - 추가되는 사이트를 확장 구현하기 쉽도록 Interface 설계
 - 검색 결과 Pagination 형태로 제공
 
 ### 2. 인기 검색어 목록
