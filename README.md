@@ -14,7 +14,7 @@
 
 ## 실행 방법
 
-1. JAVA 17.0.4 Version
+1. JAVA 17 Version
 
 2. __[Exectable jar Download](https://github.com/creedboygit/springboot-blog-search/releases/download/v1.0/blog-search-0.0.1-SNAPSHOT.jar "jar 파일 다운로드")__ - 실행 가능한 jar 파일 다운로드
 
@@ -28,7 +28,7 @@
 
 ## 구현 스펙
 
-- JAVA 17.0.4
+- JAVA 17
 - Spring Boot 2.7.9
 - Gradle
 - H2 (in-memory DB)
