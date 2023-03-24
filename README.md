@@ -14,21 +14,21 @@
 
 ## 실행 방법
 
-1. JAVA 17.0.6 Version 입니다.
+1. JAVA 17.0.6 Version
 
-2__[Executable jar Download](https://github.com/creedboygit/springboot-blog-search/releases/download/v1.0/blog-search-0.0.1-SNAPSHOT.jar "jar 파일 다운로드")__ - 실행 가능한 jar 파일 다운로드
+2. __[Exectable jar Download](https://github.com/creedboygit/springboot-blog-search/releases/download/v1.0/blog-search-0.0.1-SNAPSHOT.jar "jar 파일 다운로드")__ - 실행 가능한 jar 파일 다운로드
 
-3`$ cd [다운로드 경로]`
+2. `$ cd [다운로드 경로]`
 
-4`java -jar blog-search-0.0.1-SNAPSHOT.jar`
+3. `java -jar blog-search-0.0.1-SNAPSHOT.jar`
 
-5__[http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html "localhost Swagger 경로")__ - localhost Swagger 접속
+4. __[http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html "localhost Swagger 경로")__ - localhost Swagger 접속
 
 <br/>
 
 ## 구현 스펙
 
-- JAVA 17
+- JAVA 17.0.6
 - Spring Boot 2.7.9
 - Gradle
 - H2 (in-memory DB)
